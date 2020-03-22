@@ -3,11 +3,11 @@
     <img src="../../../assets/images/fondo.jpg">
     <ul>
         <div id="menu-items">
-            <li><a href="#" class="link">Inicio</a></li>
-            <li><a href="#" class="link">Sobre mi</a></li>
-            <li><a href="#" class="link">Portafolio</a></li>
-            <li><a href="#" class="link">Habilidades</a></li>
-            <li><a href="#" class="link">Contacto</a></li>
+            <li><a [routerLink]="['']"  [routerLinkActive]="['active']" class="link">Inicio</a></li>
+            <li><a [routerLink]="['sobre-mi']" [routerLinkActive]="['active']" class="link">Sobre mi</a></li>
+            <li><a [routerLink]="['portafolio']" [routerLinkActive]="['active']" class="link">Portafolio</a></li>
+            <li><a [routerLink]="['habilidades']" [routerLinkActive]="['active']" class="link">Habilidades</a></li>
+            <li><a [routerLink]="['contacto']" [routerLinkActive]="['active']" class="link">Contacto</a></li>
         </div>
     </ul>
 </nav>

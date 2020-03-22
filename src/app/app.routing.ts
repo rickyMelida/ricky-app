@@ -9,6 +9,7 @@ import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 
 const rutas: Routes = [
     { path: '', component: IndexComponent },
+    { path: 'home', component: IndexComponent },
     { path: 'contacto', component: ContactoComponent },
     { path: 'habilidades', component: HabilidadesComponent },
     { path: 'portafolio', component: PortafolioComponent },
